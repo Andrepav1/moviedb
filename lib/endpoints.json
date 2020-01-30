@@ -88,6 +88,7 @@
         }
       , "genre" : {
             "MovieList" : { "resource": "genre/movie/list", "method": "get" }
+          , "List" : { "resource": "genre/list", "method": "get" }
           , "TvList" : { "resource": "genre/tv/list", "method": "get" }
           , "Movies" : { "resource": "genre/:id/movies", "method": "get" }
         }
